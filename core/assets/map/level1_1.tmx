@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="16" tileheight="16" nextobjectid="3">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16">
+  <image source="tileset.png" width="80" height="96"/>
+ </tileset>
+ <layer name="sky" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4BjFo3gUj+JRPIpH8SgeQRgAMb8SAQ==
+  </data>
+ </layer>
+ <imagelayer name="Image Layer 1" x="385" y="133">
+  <image source="mou.png"/>
+ </imagelayer>
+ <imagelayer name="Copy of Image Layer 1" x="262" y="130">
+  <image source="mou.png"/>
+ </imagelayer>
+ <imagelayer name="Copy of Copy of Image Layer 1" x="155" y="150">
+  <image source="mou.png"/>
+ </imagelayer>
+ <imagelayer name="Copy of Copy of Copy of Image Layer 1" x="59" y="134">
+  <image source="mou.png"/>
+ </imagelayer>
+ <imagelayer name="Copy of Copy of Copy of Copy of Image Layer 1" x="-27" y="146">
+  <image source="mou.png"/>
+ </imagelayer>
+ <layer name="back" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMArIB1wD7YBhBAQG2gFkAgkgZkOi0TGyPC0Auj3Y+DA2DAAAn6ABHQ==
+  </data>
+ </layer>
+ <layer name="back" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqIA1xALAClYRgGRIk0Q4xMe3nxyPORYSY+u5D9iM9eSuzHFpbE2IUN8EAxMpsQpiYgxf9sQCwxgPZLQDEAECECEQ==
+  </data>
+ </layer>
+ <layer name="back" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqIA1xALAClYRgGRIk0Q4xMe7nwyPORYSY+u2B+5CZgLyX2o4clyC5eMsyB2c+DhhmwiCGLUxOQ4n82IJYYQPsloBgA/X4CAw==
+  </data>
+ </layer>
+ <layer name="solid" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGBmDBgellLysOTAu7kDE2O/mhmFz7cYUluh3obH4smByAbj4+PxJSRw4AAJ03AbU=
+  </data>
+ </layer>
+ <layer name="flip" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqoA5iIwKNgFAwGAAA3+AAT
+  </data>
+ </layer>
+ <objectgroup name="objects" opacity="0.95">
+  <object id="1" name="target" x="443.9" y="216.633" width="25.064" height="24.5192"/>
+ </objectgroup>
+ <imagelayer name="cloud1" x="13" y="24">
+  <image source="../imgs/cloud.png"/>
+ </imagelayer>
+ <imagelayer name="cloud2" x="169" y="43">
+  <image source="../imgs/cloud.png"/>
+ </imagelayer>
+ <imagelayer name="cloud3" x="369" y="13">
+  <image source="../imgs/cloud.png"/>
+ </imagelayer>
+</map>

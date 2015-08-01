@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="18" tilewidth="16" tileheight="16" nextobjectid="44">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16">
+  <image source="tileset.png" width="80" height="96"/>
+ </tileset>
+ <tileset firstgid="31" name="tileset" tilewidth="16" tileheight="16">
+  <image source="tileset.png" width="80" height="96"/>
+ </tileset>
+ <layer name="sky" width="80" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMBKEb37/imugICaumqqqqqqrPD84mLQE=
+  </data>
+ </layer>
+ <layer name="back" width="80" height="18">
+  <data encoding="base64" compression="zlib">
+   eJytlEsOgzAMRFnlDByg9z9jVakLhDJvnhGLiJI6zng+rOM41n+dl7UuT/t7bfbPUD+5Z/e8n0/vu/vve/f/dj3SLDTfhKvUhzCbvaRpOpvmSHVJ19aLeDJYUn3jqulpeG2+muSIMFGvia7WfzbDxmvWI+R7wkE6tjU9S/oRv6RlmiNp2/ycvJZ6Wd4pH1M/tRrDSfp/grfpOdWbvg3THKRz5JHGhcHU8kvebppbfK0m9TLakxcJj9WCOCedm58o06TdE40THlOT/ECcWC4bFsM7+dBiTmcIC+FPvScen9xnZ6bzLSeUY7prmhejc+KNaowvad7mjeYzi6X5kXoQpzb3tAhP0q5pYjzUnqRV80LKr/FC0oQ4arpMc9TmMnkye0arpgHd1/Se9E/vzQuphvJv/D7Bb3qTP6nO5LtlvHFhuGpnKQ8tU7Q+l2Xz1TJGetBeu3s3q8nUm3wl/ux3gzSkXJvvBPHTMmLyl7R9k7uWGetJy4H1euLZavVbX4dNUzs=
+  </data>
+ </layer>
+ <layer name="back" width="80" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEJACEMBVAnsPPAHW7/+ezFoGC44ngPUiRpPqlSCgAArLXN/gnmb3aQn+pBAQB8oU599Ntl2P2VN05zZ2eY78faAHIhAWA=
+  </data>
+ </layer>
+ <layer name="solid" width="80" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1iEKACAQBMArl+3+/6EKWi0aVJiB5eqy6SIAAGBPXQQAgHf42c5kT4mxWc5brjb6SwNvcwGV
+  </data>
+ </layer>
+ <layer name="flip" width="80" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJADAIADFx/6E7gf4sCgncDhcBAAC1bAIA4K7fb7fhJ7u39bwzHgwPADs=
+  </data>
+ </layer>
+ <layer name="vel" width="80" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztw0EJAAAIBLBrYf+mljjExwZLAAAAAADuTSG/Lcj6AYg=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="39" name="coin" x="295.951" y="116.782"/>
+  <object id="41" name="target" x="1244.99" y="196.953" width="22.7713" height="25.0484"/>
+  <object id="42" name="coin" x="763.145" y="209.348" width="18.2571" height="24.3427"/>
+ </objectgroup>
+</map>
